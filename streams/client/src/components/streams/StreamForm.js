@@ -43,10 +43,12 @@ const validate = formValues => {
     const errors = {};
 
     if (!formValues.title) {
+        // In this make an warning. look at the console of the web browser
         errors.title = 'You must enter a title';
     }
     
     if (!formValues.description) {
+        // In this make an warning. look at the console of the web browser
         errors.description = 'You must enter a description';
     }
 

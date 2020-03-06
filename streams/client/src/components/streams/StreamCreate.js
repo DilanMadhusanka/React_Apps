@@ -13,6 +13,7 @@ class StreamCreate extends React.Component {
         return (
             <div>
                 <h3>Create a Stream</h3>
+                {/* In this make an warning. look at the console of the web browser */}
                 <StreamForm onSubmit={this.onSubmit} />
             </div>
         );
